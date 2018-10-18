@@ -18,6 +18,6 @@ The contents of file should be
 }
 ```
 - ```Push``` the changes to your repository
-- Now make a ```Pull Requet``` from your repository.
+- Now make a ```Pull Request``` from your repository.
 
 > Congratulation on your first open souce contribution
