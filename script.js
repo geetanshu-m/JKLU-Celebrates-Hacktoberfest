@@ -16,7 +16,7 @@ function readTextFile(file)
     rawFile.send(null);
 }
 function add_elements(){
-    let data = [
+    /*let data = [
         {
             "name":"Geetanshu Mathur",
             "branch":"Computer Science and Engineering (VII Semester)",
@@ -27,7 +27,8 @@ function add_elements(){
             "branch":"Computer Science and Engineering (VII Semester)",
             "year":"2015"
         },
-    ]
+    ]*/
+    let data = fetch("data.arr")
     par = document.getElementById("participants")
     data.forEach(element => {
         var student  = document.createElement("div");
