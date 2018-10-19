@@ -1,4 +1,5 @@
 import os
+from jsmin import jsmin
 data = os.listdir("data/")
 nodes = "["
 for file in data:
@@ -7,5 +8,5 @@ for file in data:
 nodes = nodes[:-2]
 nodes = nodes + "]"
 arr = open("data.arr","w+")
-arr.write(str(nodes))
+arr.write(jsmin(str(nodes)))
 arr.close
