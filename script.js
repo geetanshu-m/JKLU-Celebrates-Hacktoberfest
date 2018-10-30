@@ -31,10 +31,10 @@ function add_elements(){
     par = document.getElementById("participants")
     data.forEach(element => {
         var student  = document.createElement("div");
-        student.className = "student"
+        student.className = "card teal z-depth-4 col s6"
 
         var name = document.createElement("div");
-        name.className = "name";
+        name.className = "card-title";
         name.appendChild(document.createTextNode(element.name));
 
         var branch = document.createElement("div");
